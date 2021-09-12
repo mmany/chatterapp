@@ -27,12 +27,12 @@
 	<section id="channel-area">
 		
 		<div class="headbar">
-			<h1><img src="https://ip.lfe.mw.tum.de/sections/moocus.png" alt="app logo" style="height: 56px;"> Chatter | App</h1>
+			<img src="https://ip.lfe.mw.tum.de/sections/moocus.png" alt="app logo" style="height: 56px;"><h1>Chatter | App</h1>
 		</div>
 		<h2>Favorites</h2>
 		<ul class="channel-list">
-			<li class="selected"><span class='name'>MeetUp</span><span class="timestamp"> 11:42</span><br></li>
-			<li><span class='name'>Oktoberfest</span><span class="timestamp"> 11:45</span><br></li>
+			<li class="selected"><span class='name'>MeetUp</span><span class="timestamp"> 11:42</span></li>
+			<li><span class='name'>Oktoberfest</span><span class="timestamp"> 11:45</span></li>
 		</ul>
 		<h2>Regular</h2>
 		<ul class="channel-list">
@@ -45,24 +45,37 @@
 			<h1>MeetUp</h1> <button>Favorite</button>
 		</div>
 		<div id="chat-area">
-			<div class="message">
-				<div class="message-sender">Putin</div>
-				<div class="message-content">I want to become American, would that be weird ? What do you think?</div>
+			<div class="message message-received">
+				<div class="message-content">
+					<div class="message-sender">Putin</div>
+					<div class="message-text">I want to become American, would that be weird ? What do you think?</div>
+				</div>
 				<div class="message-timestamp">Yesterday</div>
 			</div>
-			<div class="message">
-				<div class="message-sender">Biden</div>
-				<div class="message-content">I heard Putin wants to be american ??</div>
+			<div class="message message-received">
+				<div class="message-content">
+					<div class="message-sender">Biden</div>
+					<div class="message-text">I heard Putin wants to be american ??</div>
+				</div>
 				<div class="message-timestamp">Yesterday</div>
 			</div>
-			<div class="message">
-				<div class="message-sender">Macron</div>
-				<div class="message-content">If Putin wants to be american then i want too !</div>
-				<div class="message-timestamp">Yesterday</div><br>
+			<div class="message message-received">
+				<div class="message-content">
+					<div class="message-sender">Macron</div>
+					<div class="message-text">If Putin wants to be american then i want too !</div>
+				</div>
+				<div class="message-timestamp">Yesterday</div>
+			</div>
+			<div class="message message-sent">
+				<div class="message-content">
+					<div class="message-sender">Me</div>
+					<div class="message-text">Okay let's announce it to the world!</div>
+				</div>
+				<div class="message-timestamp">Yesterday - 10:15</div>
 			</div>
 		</div>
 
-		<div><input id="input-field" type="text" placeholder="send message"> <button>Send</button></div>
+		<div class="send-message-field"><input id="input-field" type="text" placeholder="send message"> <button>Send</button></div>
 	</section>
 </body>
 </html>

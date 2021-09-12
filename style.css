@@ -26,13 +26,16 @@ section{
 /* App bar */
 /*Adress the background-color, color, height, font-size, padding and line-height*/
 .headbar{
-	background-color: rgb(150,150,150);
+	background-color: lightgray;
 	color:#00838f;
-	height:50px;
+	height:30px;
 	font-size: large;
 	padding: 1em;
 }
 
+h1{
+	display: inline;
+}
 /* Channels list */
 .channel-list{
 	background-color: white;
@@ -41,6 +44,9 @@ section{
 h2{
 	font-size: large;
 	color:#00838f;
+}
+.timestamp, .message-timestamp{
+	font-size: small;
 }
 .channel-list li{
 	box-sizing: border-box;
@@ -53,3 +59,43 @@ h2{
 }
 
 /* Messages */
+
+.message{
+	width: 75%;
+}
+.message-content{
+	margin-left: 10px;
+}
+ .message-sent .message-sender{
+	color:white;
+	font-size: 17px ;
+	margin: 10px;
+	padding-top: 10px;
+}
+ .message-received .message-sender{
+	color:#00838f;
+	font-size: 17px ;
+	margin: 10px;
+	padding-top: 10px;
+}
+.message-text{
+	font-size: 14px;
+	margin: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.message-received .message-content{
+	background-color: lightgrey;
+}
+.message-sent .message-content{
+	background-color: #00838f;
+	color: darkgrey;
+}
+
+.message-timestamp{
+	margin-left: 3px;
+	font-style: italic;
+}
+.send-message-field{
+	margin-left: 10px;
+}

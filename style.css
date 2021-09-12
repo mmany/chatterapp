@@ -1,0 +1,55 @@
+/* Global */
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+}
+section{
+	position: fixed;
+	top: 0px;
+	height: 100vh;
+}
+
+#channel-area{
+	width: 399px;
+	height: 100vh;
+	border-right: 1px solid black;
+}
+#chat{
+	left: 400px;
+	width: calc(100% - 400px);
+
+}
+/* App bar */
+/*Adress the background-color, color, height, font-size, padding and line-height*/
+.headbar{
+	background-color: rgb(150,150,150);
+	color:#00838f;
+	height:50px;
+	font-size: large;
+	padding: 1em;
+}
+
+/* Channels list */
+.channel-list{
+	background-color: white;
+	list-style-type: none;
+}
+h2{
+	font-size: large;
+	color:#00838f;
+}
+.channel-list li{
+	box-sizing: border-box;
+	padding: 22px;
+	height: 66px;
+}
+.selected{
+	border-right: 5px solid #00838f;
+	background-color: lightgrey;
+}
+
+/* Messages */
